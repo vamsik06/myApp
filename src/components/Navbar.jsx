@@ -6,25 +6,25 @@ function Navbar() {
   return (
     <div>
         <nav className='nav'>
-            <Link to='/' className='site-logo'>CodePlushub</Link>
+            <a href='/' className='site-logo'>CodePlushub</a>
             <ul>
                 <li>
-                    <Link to='/home'>Home</Link>
+                    <a href='/home'>Home</a>
                 </li>
                 <li>
-                <Link to='/latest-jobs'>Latest jobs</Link>
+                <a href='/latest-jobs'>Latest jobs</a>
                 </li>
                 <li>
-                    <Link to='/internships'>Internships</Link>
+                    <a href='/internships'>Internships</a>
                 </li>
                 <li>
-                    <Link to='/courses'>Courses</Link>
+                    <a href='/courses'>Courses</a>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <a href='/about'>About</a>
                 </li>
                 <li>
-                    <Link to='/contact'>Contact</Link>
+                    <a href='/contact'>Contact</a>
                 </li>
             </ul>
         </nav>
