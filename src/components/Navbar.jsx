@@ -15,9 +15,6 @@ function Navbar() {
                 <a href='/latest-jobs'>Latest jobs</a>
                 </li>
                 <li>
-                    <a href='/internships'>Internships</a>
-                </li>
-                <li>
                     <a href='/courses'>Courses</a>
                 </li>
                 <li>
