@@ -12,7 +12,8 @@ import About from './pages/About'
 function App() {
   return (
     <div>
-      <Navbar />
+     
+     <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
