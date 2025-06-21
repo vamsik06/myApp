@@ -268,8 +268,8 @@ Give feedback on confidence, explanation, and missing examples. Be specific abou
     setFeedbackLoading(false);
   };
 
-  return (
-    <>
+    return (  
+       <>
       <h1 className="text-2xl font-bold text-center mt-8">AI Interview Simulator</h1>
       {!formData && <InterviewForm onStart={handleStartInterview} />}
       {loading && <div className="text-center mt-6">Generating question...</div>}
@@ -438,8 +438,8 @@ Give feedback on confidence, explanation, and missing examples. Be specific abou
           </button>
         </div>
       )}
-    </>
-  );
+       </>
+    );
 }
 
 export default Home;
